@@ -1,1 +1,1 @@
-# devops-project-1
+## A project to set up AWS infrastructure using Terraform and then use Jenkins to build a CICD pipeline which will host a simple flask application on AWS.

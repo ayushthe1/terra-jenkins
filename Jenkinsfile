@@ -15,7 +15,7 @@ pipeline {
                 deleteDir()
 
                 // Clone the Git repository
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/ayushthe1/terra-jenkins.git'
 
                 sh "ls -lart"

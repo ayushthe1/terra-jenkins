@@ -16,7 +16,7 @@ pipeline {
 
                 // Clone the Git repository
                 git branch: 'main',
-                    url: 'https://github.com/ayushthe1/devops-project-1.git'
+                    url: 'https://github.com/ayushthe1/terra-jenkins.git'
 
                 sh "ls -lart"
             }
